@@ -1,0 +1,155 @@
+*{ margin:0; padding:0;}
+html,body{
+    width:100%;
+    height:100%;
+    background-color: rgb(255,255,255);
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    background-color: rgb(95,192,205);
+    overflow: hidden;
+    position:fixed;
+    width:100%;
+    left:0;
+    top:0;
+}
+body{
+    padding-top: 92px;
+}
+button{
+    float:left;
+    font-size: 3.2rem;
+    font-family: "Heiti SC";
+    color: rgb(255, 255, 255);
+    background-color: rgb(95,192,205);
+    border:none;
+    outline:none;
+}
+h1{
+    padding:30px;
+    float:left;
+    font-size: 3.6rem;
+    font-family: "Heiti SC";
+    color: rgb(255, 255, 255);
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+li:first-child{
+    background-image: url("背景.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.head{
+    padding:79px 33px;
+    float:left;
+}
+.span_01{
+    font-size: 3.2rem;
+    font-family: "Heiti SC";
+    color: rgb(51, 51, 51);
+}
+.span_02{
+    font-size: 2.8rem;
+    font-family: "Hiragino Sans GB";
+    color: rgb(226, 97, 99);
+}
+span{
+    font-size: 3.2rem;
+    font-family: "Heiti SC";
+    color: rgb(51, 51, 51);
+    vertical-align: middle;
+}
+img{
+    padding:28px;
+}
+.img_01{
+    padding:0 15px 0 60px;
+}
+.img_02{
+    padding: 0 15px 0 0;
+}
+label{
+    padding:0 0 0 60px;
+    font-size: 3.2rem;
+    font-family: "Heiti SC";
+    color: rgb(153, 153, 153);
+    vertical-align: middle;
+}
+.footer{
+    padding:24px;
+    overflow: hidden;
+    position:fixed;
+    width:100%;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.comments{
+    float:left;
+    padding:28px;
+    margin: 13px;
+    width: 40%;
+    font-size: 3.4rem;
+    line-height: 100%;
+    font-family: "Hiragino Sans GB";
+    color: rgb(95, 192, 205);
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(95, 192, 205);
+    border-radius:10px;
+}
+.contact{
+    float:right;
+    padding:28px;
+    margin: 13px;
+    width: 40%;
+    font-size: 3.4rem;
+    line-height: 100%;
+    font-family: "Hiragino Sans GB";
+    border: 1px solid rgb(95, 192, 205);
+    border-radius:10px;
+}
+@media screen and (max-width:700px){
+    html{
+        font-size: 31.25%;
+    }
+    body{
+        padding-top: 46px;
+    }
+    button{
+        padding:15px;
+    }
+    .box1{
+        padding:14px;
+
+    }
+    .box2 a{
+        padding:15px;
+    }
+    .box3,.box4{
+        margin-top:8px;
+    }
+    img{
+        max-width: 17%;
+        max-height: 17%;
+    }
+    input{
+        padding-left: 15px;
+    }
+    .login{
+        margin-top:25px;
+        padding:17px;
+
+    }
+    .footer a{
+        padding:10px 17px;
+    }
+    .footer{
+        padding-bottom:342px;
+    }
+}
+
