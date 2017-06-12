@@ -16,7 +16,7 @@ header{
 }
 body{
     padding-top: 92px;
-    padding-bottom: 166px;
+    padding-bottom: 232px;
 }
 .back{
     float:left;
@@ -84,6 +84,9 @@ img{
 .img_02{
     padding: 0 15px 0 0;
 }
+.img_03{
+    padding-right: 14px;
+}
 label{
     padding:35px 0 35px 4px;
     font-size: 3.2rem;
@@ -94,7 +97,8 @@ label{
 }
 p{
     font-size: 3.2rem;
-    margin-right: 30px;
+    padding:20px 30px 20px 0;
+    line-height: 1.5;
     font-family: "Heiti SC";
     color: rgb(51, 51, 51);
     vertical-align: middle;
@@ -106,37 +110,38 @@ li:last-child{
     border-bottom:none;
 }
 .footer{
-    padding:24px;
+    padding:25px 17px;
     overflow: hidden;
     position:fixed;
     left:0;
     right:0;
     bottom:0;
+    display: flex;
+    justify-content: center;
 }
 .comments{
-    float:left;
     padding:28px;
-    margin: 13px;
-    width: 40%;
+    margin: 15px;
+    width: 45%;
     font-size: 3.4rem;
     line-height: 100%;
     font-family: "Hiragino Sans GB";
     color: rgb(95, 192, 205);
     background-color: rgb(255,255,255);
-    border: 1px solid rgb(95, 192, 205);
+    border: 2px solid rgb(95, 192, 205);
     outline:none;
     border-radius:10px;
 }
 .contact{
-    float:right;
     padding:28px;
-    margin: 13px;
-    width: 40%;
+    margin: 15px;
+    width: 45%;
     font-size: 3.4rem;
     line-height: 100%;
     font-family: "Hiragino Sans GB";
     background-color: rgb(95,192,205);
-    border: 1px solid rgb(95, 192, 205);
+    color: rgb(255,255,255);
+    border: 2px solid rgb(95, 192, 205);
     outline:none;
     border-radius:10px;
 }
@@ -162,7 +167,7 @@ li:last-child{
     }
     body{
         padding-top: 46px;
-        padding-bottom: 84px;
+        padding-bottom: 116px;
     }
     h1{
         padding:15px;
@@ -172,42 +177,44 @@ li:last-child{
     }
     .head{
         padding:40px 17px;
-        max-width: 30%;
-        max-height: 30%;
+        width: 85px;
     }
     img{
         padding:14px;
-        max-width: 30%;
-        max-height: 30%;
     }
     .img_01{
         padding:0 7px 0 14px;
-        max-width: 30%;
-        max-height: 30%;
+        width: 12px;
     }
     .img_02{
         padding: 0 7px 0 0;
-        max-width: 30%;
-        max-height: 30%;
+        width: 12px;
+    }
+    .img_03{
+        width:9px;
+        padding-right: 7px;
+    }
+    .img_04{
+        width:11px;
     }
     label{
         padding:17px 0 17px 2px;
     }
     p{
-        margin-right: 15px;
+        padding:10px 30px 10px 0;
     }
     .footer{
-        padding:12px;
+        padding:12px 6px;
     }
     .comments{
         padding:14px;
         margin: 6px;
-        width: 40%;
+        width: 45%;
     }
     .contact{
         padding:14px;
         margin: 6px;
-        width: 40%;
+        width: 45%;
     }
     .name{
         margin:14px;
